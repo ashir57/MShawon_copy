@@ -1,0 +1,24 @@
+﻿{
+    "http_api": {
+        "enabled": false,
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "database": false,
+    "views": 1000,
+    "minimum": 85.0,
+    "maximum": 95.0,
+    "proxy": {
+        "category": "f",
+        "proxy_type": "http",
+        "filename": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=1000&country=all&ssl=all&anonymity=all",
+        "authentication": false,
+        "proxy_api": true,
+        "refresh": 15.0
+    },
+    "background": false,
+    "bandwidth": false,
+    "playback_speed": 1,
+    "max_threads": 15,
+    "min_threads": 10
+}
